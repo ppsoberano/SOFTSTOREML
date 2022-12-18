@@ -1,0 +1,115 @@
+/* (vip) version: 1.0.1 */
+
+
+
+/* header & footer (1.0.1) */
+
+.nav-header,
+.side-drawer__title {
+    background: #f1c122;
+    border-color: #f1c122;
+}
+
+.nav-header__hamburger {
+    background: #333 !important;
+}
+
+.nav-list--horizontal > .nav-list__item > .nav-list__link {
+    color: #333 !important;
+}
+
+/* Hover under elements in menu */
+.nav-list__item--more:after,
+.nav-list--horizontal > .nav-list__item:not(:last-child):not(:last-child):after {
+    border-color: #333 !important;
+}
+
+/* Icons */
+.nav-header__logo,
+.nav-header__nav-link .nav-header__nav-icon:before,
+.nav-icon-cart:before,
+.nav-cart .nav-icon-cart-quantity {
+    color: #333 !important;
+}
+
+/* Separators in the header */
+.nav-header__separator,
+.nav-cart:before,
+.nav-header__nav-link:before {
+    border-color: #333 !important;
+    opacity: 0.1;
+}
+
+/* Hide QR Afip (todo: don't do it by style but by removing the element) */
+footer .nav-footer-disclaimer a[href="null"] {
+    display: none;
+}
+
+/* New Classes for templates */
+.header--custom-background {
+    background: #f1c122 !important;
+    border-color: #f1c122 !important;
+}
+
+.header--custom-title {
+    color: #f1c122 !important;
+}
+
+.header--custom-title-container {
+    background-color: #333 !important;
+}
+
+.icon--custom-color {
+  fill: #f1c122 !important;
+}
+
+.discovery--custom-label-image-gradient {
+  background: linear-gradient(to top, rgba(241,193,34,0.05), transparent)
+}
+
+.header--custom-text {
+    color: #333 !important;
+}
+
+.header--custom-border {
+    border-color: #333 !important;
+}
+
+.header--custom-svg {
+    fill: #333 !important;
+}
+
+.header--custom-secondary-background {
+    background-color: #fcf1cf !important;
+}
+
+.header--custom-secondary-text {
+    color: #333 !important;
+}
+
+.header--custom-text a {
+  color: #333 !important;
+}
+.header--custom-border.nav-list--horizontal>.nav-list__item:not(:last-child):not(:last-child):after {
+  border-color: #333 !important;
+}
+
+/* Search box looks bad on white headers (white border - white background). We need to force gray. */
+
+    .search-box-container {
+    border: 1px solid #cccccc;
+    }
+
+
+.header--custom-border:hover {
+    border-color: #333 !important;
+}
+
+
+
+
+
+
+
+
+
